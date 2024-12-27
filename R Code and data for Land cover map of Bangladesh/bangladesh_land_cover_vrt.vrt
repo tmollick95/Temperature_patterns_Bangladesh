@@ -1,0 +1,40 @@
+<VRTDataset rasterXSize="10034" rasterYSize="12842">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  8.8004099944329397e+01,  4.6612112267762951e-04,  0.0000000000000000e+00,  2.6704771218011189e+01,  0.0000000000000000e+00, -4.6612112267762940e-04</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">45Q_20230101-20240101_bangladesh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4673" RasterYSize="7003" DataType="Float32" BlockXSize="4673" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4673" ySize="7003" />
+      <DstRect xOff="0" yOff="5747.26252198425" xSize="4617.32938022152" ySize="6919.57150646079" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">45R_20230101-20240101_bangladesh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4376" RasterYSize="5720" DataType="Float32" BlockXSize="4376" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4376" ySize="5720" />
+      <DstRect xOff="49.4692160666821" yOff="151.97505480563" xSize="4371.39382846536" ySize="5713.97913592822" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">46Q_20230101-20240101_bangladesh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="6097" RasterYSize="7114" DataType="Float32" BlockXSize="6097" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="6096.73035909543" ySize="7113.71300148726" />
+      <DstRect xOff="3947.83738526549" yOff="5740.61752586574" xSize="6086.16261473451" ySize="7101.38247413426" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">46R_20230101-20240101_bangladesh.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5794" RasterYSize="5781" DataType="Float32" BlockXSize="5794" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="5794" ySize="5781" />
+      <DstRect xOff="4139.02210272089" yOff="0" xSize="5879.16713784957" ySize="5865.97604831003" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
